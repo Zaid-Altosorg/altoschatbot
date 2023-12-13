@@ -7,9 +7,9 @@ const port = process.env.PORT || 8000;
 app.use(cors());
 
 app.get('/', (req, res) => {
-  res.send('/path Hello');
+  res.send('/path Hello world');
 });
 
 app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+  console.log(`✅✅✅ Server is running on port ${port}`);
 });
